@@ -1,0 +1,39 @@
+.BadgeNew__hero {
+  
+  padding: 1rem 0;
+  /* background: url('../../images/stars.svg'), #1B1B25;
+  background-repeat: repeat; */
+  margin-bottom: 1rem;
+  color: #ffffff;
+  
+  
+}
+
+#slider {
+  background: url('../../images/stars.svg'), #1B1B25;
+  /* width: 2000px; */
+  animation: slider 60s infinite linear;
+  overflow: hidden;
+}
+
+.animar_astro {
+  width: 5rem;
+  height: 5rem;
+  margin-left: 5rem;
+  animation: mov-astronauta 2s alternate infinite ease-in;
+}
+
+@keyframes slider {
+  to {
+    background-position: 2000px;
+  }
+}
+
+@keyframes mov-astronauta {
+  0% {
+    transform: translateY(-15%);
+  }
+  100% {
+    transform: translateY(13%);
+  }
+}

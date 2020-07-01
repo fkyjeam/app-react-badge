@@ -1,0 +1,19 @@
+.error__center {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  background: url('../../images/stars.svg'), #1B1B25;
+  background-repeat: repeat;
+
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+}
+
+.error__title {
+  color: white;
+}
+
+.error__info {
+  color:#f5deb3;
+}
